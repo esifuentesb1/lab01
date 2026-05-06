@@ -34,3 +34,13 @@ Soporte para tres entornos mediante archivos `.tfvars`:
 ```bash
 cd Terraform
 terraform init
+
+### 4.2 Despliegue (DEV)
+
+```bash
+terraform apply -var-file="../Envs/dev.tfvars"
+
+### 4.3 Destrucción
+
+```bash
+terraform destroy -var-file="../Envs/dev.tfvars"
