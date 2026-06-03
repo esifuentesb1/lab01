@@ -7,7 +7,7 @@ on:
       - develop
 
 env:
-  mi_nombre: "Edy Sifuentes"
+  mi_nombre: "Edy Sifuentes."
 
 jobs:
   saludos:
