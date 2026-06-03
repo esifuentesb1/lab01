@@ -10,10 +10,12 @@ on:
    saludos:
     runs-on: ubuntu-latest
     steps:
-    - name : Saludos desde main
+    - name : Saludos desde 
+    if: github.ref == 'refs/heads/main'
     run: echo "Hola desde main, soy Edy Sifuentes"
 
     - name : Saludos desde develop
+    if: github.ref == 'refs/heads/develop'
     run: echo "Hola desde develop, soy Edy Sifuentes"
     
    
